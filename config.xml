@@ -327,7 +327,7 @@ OBWaR+SP4Aez76lHYt/s0Dv0UW/AxUv0RDobYi6NI9ODIa8gIWKNh2Lc6cakzpGkR4hK+G&#xD;
 OCzfYqc34P5sr89lAAAAAAEC&#xD;
 -----END OPENSSH PRIVATE KEY-----</privkey>
         <user>oceansoul1977</user>
-        <password>@jlJRDR0wsn1$SxucHp!csM$sod7HUE$</password>
+        <password/>
       </git>
     </backup>
   </system>
@@ -710,7 +710,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.4</username>
     <description>/diag_backup.php made changes</description>
-    <time>1721808203.3226</time>
+    <time>1721808424.4239</time>
   </revision>
   <OPNsense>
     <wireguard>
