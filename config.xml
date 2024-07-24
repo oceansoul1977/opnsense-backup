@@ -724,7 +724,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721820695.5329</time>
+    <time>1721820756.8592</time>
     <description>/vpn_ipsec_phase2.php made changes</description>
   </revision>
   <OPNsense>
@@ -1943,6 +1943,27 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </encryption-algorithm-option>
       <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
       <reqid>2</reqid>
+    </phase2>
+    <phase2>
+      <ikeid>2</ikeid>
+      <uniqid>66a0e61b63722</uniqid>
+      <mode>tunnel</mode>
+      <pfsgroup>21</pfsgroup>
+      <descr>LAN 2 Production</descr>
+      <protocol>esp</protocol>
+      <localid>
+        <type>lan</type>
+      </localid>
+      <remoteid>
+        <type>network</type>
+        <address>192.168.250.0</address>
+        <netbits>24</netbits>
+      </remoteid>
+      <encryption-algorithm-option>
+        <name>aes256gcm16</name>
+      </encryption-algorithm-option>
+      <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
+      <reqid>3</reqid>
     </phase2>
     <client/>
     <enable>1</enable>
