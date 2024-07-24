@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/dyndns/accounts/add_item/ made changes</description>
-    <time>1721816247.9973</time>
+    <description>/api/dyndns/accounts/set_item/2ba174d5-c6f5-4afd-9f2b-32052c0b2631 made changes</description>
+    <time>1721816274.682</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1349,7 +1349,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <service>dynu</service>
           <protocol/>
           <server/>
-          <username>oceansoul</username>
+          <username>oceansoul1977</username>
           <password>Ttft_kapjqoecqkhb1mS</password>
           <resourceId/>
           <hostnames>oceansoulproximus.ddnsgeek.com</hostnames>
