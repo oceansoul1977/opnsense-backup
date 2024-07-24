@@ -297,7 +297,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>https://github.com/oceansoul1977/opnsense</url>
+        <url>https://github.com/oceansoul1977/opnsense.git</url>
         <branch>master</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn&#xD;
@@ -710,7 +710,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.4</username>
     <description>/diag_backup.php made changes</description>
-    <time>1721807767.8674</time>
+    <time>1721807811.0075</time>
   </revision>
   <OPNsense>
     <wireguard>
