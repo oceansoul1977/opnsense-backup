@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/ipsec/tunnel/toggle_phase2/3 made changes</description>
-    <time>1721822371.2164</time>
+    <time>1721822529.0742</time>
+    <description>/vpn_ipsec_phase1.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1881,7 +1881,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <iketype>ikev2</iketype>
       <interface>wan</interface>
       <protocol>inet</protocol>
-      <myid_type>dyn_dns</myid_type>
+      <myid_type>auto</myid_type>
       <myid_data>oceansoulproximus.ddnsgeek.com</myid_data>
       <peerid_type>address</peerid_type>
       <peerid_data>212.123.8.82</peerid_data>
