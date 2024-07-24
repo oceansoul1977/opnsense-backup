@@ -706,8 +706,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/ipsec/tunnel/toggle_phase1/2 made changes</description>
-    <time>1721823427.5129</time>
+    <description>/api/routing/settings/setGateway/efdf5c2a-a1a6-4992-a957-647a43aa55ae made changes</description>
+    <time>1721823524.4352</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1129,11 +1129,11 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <ipprotocol>inet</ipprotocol>
         <gateway/>
         <defaultgw>1</defaultgw>
-        <fargw/>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute/>
+        <fargw>1</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
         <monitor/>
-        <force_down/>
+        <force_down>0</force_down>
         <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
