@@ -558,7 +558,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
-        <any>1</any>
+        <address>belgiumonly</address>
       </source>
       <destination>
         <network>wanip</network>
@@ -566,7 +566,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </destination>
       <updated>
         <username>root@192.168.200.4</username>
-        <time>1721735896.1546</time>
+        <time>1721811093.7001</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -724,7 +724,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721811077.0176</time>
+    <time>1721811093.752</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
