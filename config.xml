@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/ipsec/tunnel/toggle_phase2/2 made changes</description>
-    <time>1721822368.5184</time>
+    <description>/api/ipsec/tunnel/toggle_phase2/3 made changes</description>
+    <time>1721822371.2164</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1987,6 +1987,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </encryption-algorithm-option>
       <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
       <reqid>4</reqid>
+      <disabled>1</disabled>
     </phase2>
     <client/>
     <enable>1</enable>
