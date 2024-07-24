@@ -270,7 +270,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-ddclient,os-git-backup</plugins>
+      <plugins>os-ddclient,os-git-backup</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -725,7 +725,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1721816755.8331</time>
+    <time>1721816763.058</time>
   </revision>
   <OPNsense>
     <wireguard>
