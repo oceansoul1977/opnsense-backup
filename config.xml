@@ -332,14 +332,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </backup>
   </system>
   <interfaces>
-    <lan>
-      <if>vmx1</if>
-      <descr>LAN</descr>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>192.168.200.25</ipaddr>
-      <subnet>26</subnet>
-    </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
       <descr>Loopback</descr>
@@ -449,14 +441,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <adv_dhcp_config_file_override_path/>
     </opt6>
   </interfaces>
-  <dhcpd>
-    <lan>
-      <range>
-        <from>192.168.200.10</from>
-        <to>192.168.200.53</to>
-      </range>
-    </lan>
-  </dhcpd>
+  <dhcpd/>
   <snmpd>
     <syslocation/>
     <syscontact/>
@@ -468,26 +453,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule uuid="98644f18-6111-4423-b9b3-6a46792a71f3">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default allow LAN to any rule</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.200.4</username>
-        <time>1721728179.3899</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-    </rule>
     <rule uuid="78be59ac-fab4-41e9-9e20-71744a226d0c">
       <type>pass</type>
       <interface>enc0</interface>
@@ -617,8 +582,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721828200.5587</time>
-    <description>Interface LAN(lan) is now disabled.</description>
+    <time>1721828225.6813</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
