@@ -380,8 +380,13 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <virtual>1</virtual>
     </lo0>
     <opt1>
-      <descr>4G5G</descr>
       <if>vlan0.11</if>
+      <descr>4G5G</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <blockbogons>1</blockbogons>
+      <ipaddr>192.168.0.117</ipaddr>
+      <subnet>28</subnet>
     </opt1>
     <opt2>
       <descr>InternalRouting</descr>
@@ -709,8 +714,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721809712.9779</time>
-    <description>/system_gateway_groups_edit.php made changes</description>
+    <time>1721810178.2113</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
