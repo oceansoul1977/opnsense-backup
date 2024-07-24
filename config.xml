@@ -389,8 +389,13 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <subnet>28</subnet>
     </opt1>
     <opt2>
-      <descr>InternalRouting</descr>
       <if>vlan0.12</if>
+      <descr>InternalRouting</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <blockbogons>1</blockbogons>
+      <ipaddr>192.168.0.140</ipaddr>
+      <subnet>28</subnet>
     </opt2>
     <opt3>
       <if>vlan0.13</if>
@@ -736,7 +741,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721810206.4113</time>
+    <time>1721810289.5117</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
