@@ -707,7 +707,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.4</username>
     <description>/api/ipsec/tunnel/toggle_phase1/2 made changes</description>
-    <time>1721823422.0884</time>
+    <time>1721823427.5129</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1889,7 +1889,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <dpd_delay>10</dpd_delay>
       <dpd_maxfail>5</dpd_maxfail>
       <dpd_action/>
-      <disabled>1</disabled>
     </phase1>
     <phase2>
       <ikeid>1</ikeid>
