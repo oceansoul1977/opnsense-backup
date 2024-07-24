@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/dyndns/accounts/set_item/6ccd15fc-a074-4f83-95f2-e7e5eccfda3d made changes</description>
-    <time>1721816286.9583</time>
+    <description>/api/dyndns/settings/set made changes</description>
+    <time>1721816290.3254</time>
   </revision>
   <OPNsense>
     <wireguard>
