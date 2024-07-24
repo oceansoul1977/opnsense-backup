@@ -338,7 +338,25 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
-      <ipaddr>pppoe</ipaddr>
+      <ipaddr>dhcp</ipaddr>
+      <dhcphostname/>
+      <alias-address/>
+      <alias-subnet>32</alias-subnet>
+      <dhcprejectfrom/>
+      <adv_dhcp_pt_timeout/>
+      <adv_dhcp_pt_retry/>
+      <adv_dhcp_pt_select_timeout/>
+      <adv_dhcp_pt_reboot/>
+      <adv_dhcp_pt_backoff_cutoff/>
+      <adv_dhcp_pt_initial_interval/>
+      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
+      <adv_dhcp_send_options/>
+      <adv_dhcp_request_options/>
+      <adv_dhcp_required_options/>
+      <adv_dhcp_option_modifiers/>
+      <adv_dhcp_config_advanced/>
+      <adv_dhcp_config_file_override/>
+      <adv_dhcp_config_file_override_path/>
     </wan>
     <lan>
       <if>vmx1</if>
@@ -706,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/routing/settings/setGateway/efdf5c2a-a1a6-4992-a957-647a43aa55ae made changes</description>
-    <time>1721823851.1557</time>
+    <time>1721824045.1643</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
