@@ -270,7 +270,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-clamav,os-ddclient,os-git-backup</plugins>
+      <plugins>os-acme-client,os-ddclient,os-git-backup</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -723,9 +723,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.4</username>
-    <description>/api/ids/service/reconfigure made changes</description>
-    <time>1721816657.8899</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1721816755.8331</time>
   </revision>
   <OPNsense>
     <wireguard>
