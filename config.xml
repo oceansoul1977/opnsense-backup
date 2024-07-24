@@ -618,8 +618,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721824306.3766</time>
-    <description>/interfaces.php made changes</description>
+    <time>1721824639.4132</time>
+    <description>/system_gateway_groups_edit.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1896,7 +1896,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <gateways>
     <gateway_group>
       <name>Internet-failover</name>
-      <item>WAN_GW|1</item>
+      <item>PROXIMUSDSL_DHCP|1</item>
       <item>axsguard|2</item>
       <trigger>down</trigger>
       <poolopts/>
