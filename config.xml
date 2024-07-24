@@ -707,7 +707,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.4</username>
     <description>/api/routing/settings/setGateway/efdf5c2a-a1a6-4992-a957-647a43aa55ae made changes</description>
-    <time>1721823524.4352</time>
+    <time>1721823582.5778</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1129,7 +1129,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <ipprotocol>inet</ipprotocol>
         <gateway/>
         <defaultgw>1</defaultgw>
-        <fargw>1</fargw>
+        <fargw>0</fargw>
         <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
         <monitor/>
