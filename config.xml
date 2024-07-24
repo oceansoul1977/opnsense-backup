@@ -270,7 +270,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-clamav,os-ddclient,os-etpro-telemetry,os-freeradius,os-git-backup,os-iperf,os-lldpd,os-nginx,os-postfix,os-squid,os-tftp,os-upnp,os-vmware,os-wazuh-agent</plugins>
+      <plugins>os-acme-client,os-clamav,os-ddclient,os-etpro-telemetry,os-freeradius,os-git-backup,os-iperf,os-lldpd,os-nginx,os-postfix,os-squid,os-tftp,os-upnp,os-vmware</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -723,9 +723,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.4</username>
-    <time>1721811093.752</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1721815576.7816</time>
   </revision>
   <OPNsense>
     <wireguard>
