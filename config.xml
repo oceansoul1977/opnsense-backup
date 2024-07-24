@@ -709,8 +709,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1721808850.9523</time>
+    <time>1721809712.9779</time>
+    <description>/system_gateway_groups_edit.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1823,4 +1823,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <client/>
     <enable>1</enable>
   </ipsec>
+  <gateways>
+    <gateway_group>
+      <name>Internet-failover</name>
+      <item>WAN_GW|1</item>
+      <item>axsguard|2</item>
+      <trigger>down</trigger>
+      <poolopts/>
+      <descr>Internet Failover</descr>
+    </gateway_group>
+  </gateways>
 </opnsense>
