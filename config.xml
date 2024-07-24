@@ -505,14 +505,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <quick>1</quick>
       <protocol>esp</protocol>
       <source>
-        <any>1</any>
+        <address>belgiumonly</address>
       </source>
       <destination>
-        <address>belgiumonly</address>
+        <network>wanip</network>
       </destination>
       <updated>
         <username>root@192.168.200.4</username>
-        <time>1721811003.308</time>
+        <time>1721811063.2554</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -724,7 +724,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721811032.6905</time>
+    <time>1721811063.3091</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
