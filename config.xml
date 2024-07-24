@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/dyndns/settings/set made changes</description>
-    <time>1721816290.3254</time>
+    <description>/api/ids/settings/set made changes</description>
+    <time>1721816657.7226</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -890,10 +890,10 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </files>
       <fileTags/>
       <general>
-        <enabled>0</enabled>
-        <ips>0</ips>
-        <promisc>0</promisc>
-        <interfaces>wan</interfaces>
+        <enabled>1</enabled>
+        <ips>1</ips>
+        <promisc>1</promisc>
+        <interfaces>opt1,wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
         <defaultPacketSize/>
         <UpdateCron/>
