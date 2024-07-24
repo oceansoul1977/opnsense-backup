@@ -332,32 +332,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </backup>
   </system>
   <interfaces>
-    <wan>
-      <if>pppoe0</if>
-      <descr>WAN</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>pppoe</ipaddr>
-      <dhcphostname/>
-      <alias-address/>
-      <alias-subnet>32</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
-    </wan>
     <lan>
       <if>vmx1</if>
       <descr>LAN</descr>
@@ -469,112 +443,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule uuid="2377eb6f-d0ec-4b31-bcfc-8425851f3060">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <icmptype>echoreq</icmptype>
-      <source>
-        <address>belgiumonly</address>
-      </source>
-      <destination>
-        <network>wanip</network>
-      </destination>
-      <updated>
-        <username>root@192.168.200.4</username>
-        <time>1721811076.9604</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.200.4</username>
-        <time>1721727984.7696</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="5f3eb223-c7e1-4d37-9e03-6aef9543301b">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>IPSec ESP</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>esp</protocol>
-      <source>
-        <address>belgiumonly</address>
-      </source>
-      <destination>
-        <network>wanip</network>
-      </destination>
-      <updated>
-        <username>root@192.168.200.4</username>
-        <time>1721811063.2554</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.200.4</username>
-        <time>1721735760.4145</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="11bddcf1-e345-4e52-ba74-d174715e299e">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>IPSec ISAKMP</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>belgiumonly</address>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>500</port>
-      </destination>
-      <updated>
-        <username>root@192.168.200.4</username>
-        <time>1721811032.6331</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.200.4</username>
-        <time>1721735836.7662</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="2cecf4ce-9a48-4fcf-a359-931479932885">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>IPSec NAT-T</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <address>belgiumonly</address>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>4500</port>
-      </destination>
-      <updated>
-        <username>root@192.168.200.4</username>
-        <time>1721811093.7001</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.200.4</username>
-        <time>1721735896.1546</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="98644f18-6111-4423-b9b3-6a46792a71f3">
       <type>pass</type>
       <interface>lan</interface>
@@ -724,7 +592,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721824259.1017</time>
+    <time>1721824273.8249</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
