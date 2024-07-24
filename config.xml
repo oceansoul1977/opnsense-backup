@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1721810807.2611</time>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1721810949.6077</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -778,7 +778,20 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <geoip>
           <url>https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&amp;license_key=R7kH4Bfd9g5rrKa4&amp;suffix=zip</url>
         </geoip>
-        <aliases/>
+        <aliases>
+          <alias uuid="dd530546-e280-4310-b208-43014e7d6ecd">
+            <enabled>1</enabled>
+            <name>belgiumonly</name>
+            <type>geoip</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>BE</content>
+            <categories/>
+            <description>Belgium Only</description>
+          </alias>
+        </aliases>
       </Alias>
       <Category version="1.0.0">
         <categories>
