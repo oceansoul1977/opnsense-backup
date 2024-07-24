@@ -270,7 +270,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-clamav,os-ddclient,os-etpro-telemetry,os-freeradius,os-git-backup,os-iperf,os-lldpd,os-nginx</plugins>
+      <plugins>os-acme-client,os-clamav,os-ddclient,os-etpro-telemetry,os-freeradius,os-git-backup,os-iperf,os-lldpd</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -725,7 +725,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1721815665.5404</time>
+    <time>1721815672.122</time>
   </revision>
   <OPNsense>
     <wireguard>
