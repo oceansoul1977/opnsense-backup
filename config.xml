@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721821679.7503</time>
-    <description>/vpn_ipsec_phase1.php made changes</description>
+    <description>/api/ipsec/tunnel/toggle_phase2/2 made changes</description>
+    <time>1721822368.5184</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1965,6 +1965,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </encryption-algorithm-option>
       <hash-algorithm-option>hmac_sha256</hash-algorithm-option>
       <reqid>3</reqid>
+      <disabled>1</disabled>
     </phase2>
     <phase2>
       <ikeid>2</ikeid>
