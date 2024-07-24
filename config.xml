@@ -423,6 +423,10 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <ipaddr>192.168.2.1</ipaddr>
       <subnet>24</subnet>
     </opt5>
+    <opt6>
+      <descr>ProximusDSL</descr>
+      <if>vmx0_vlan10</if>
+    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -592,7 +596,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721824273.8249</time>
+    <time>1721824281.9086</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
