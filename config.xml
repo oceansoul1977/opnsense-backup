@@ -706,8 +706,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721822649.1361</time>
-    <description>/interfaces.php made changes</description>
+    <time>1721822948.6822</time>
+    <description>/vpn_ipsec_phase1.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1879,7 +1879,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <name>camellia</name>
         <keylen>256</keylen>
       </encryption-algorithm>
-      <pre-shared-key>@y&gt;AsFrM|}D$X__uB8H&#xA3;/_*{f0h2z8n!K`L/1lGp_p;Nx[eUC%</pre-shared-key>
+      <pre-shared-key>1Zjs9u0kadXVl4rwGYU5wJB0yIWrjfQK0C0t</pre-shared-key>
       <authentication_method>pre_shared_key</authentication_method>
       <descr>AXS Guard GWA</descr>
       <nat_traversal>on</nat_traversal>
