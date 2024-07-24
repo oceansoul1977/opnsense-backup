@@ -479,14 +479,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <protocol>icmp</protocol>
       <icmptype>echoreq</icmptype>
       <source>
-        <any>1</any>
+        <address>belgiumonly</address>
       </source>
       <destination>
         <network>(self)</network>
       </destination>
       <updated>
         <username>root@192.168.200.4</username>
-        <time>1721727984.7696</time>
+        <time>1721810983.2294</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -724,8 +724,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1721810949.6077</time>
+    <time>1721810983.2813</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
