@@ -333,30 +333,12 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </system>
   <interfaces>
     <wan>
-      <if>vmx0_vlan10</if>
+      <if>pppoe0</if>
       <descr>WAN</descr>
       <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address/>
-      <alias-subnet>32</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
+      <ipaddr>pppoe</ipaddr>
     </wan>
     <lan>
       <if>vmx1</if>
@@ -724,8 +706,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1721822529.0742</time>
-    <description>/vpn_ipsec_phase1.php made changes</description>
+    <time>1721822649.1361</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1782,7 +1764,15 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <gre/>
   </gres>
   <ppps>
-    <ppp/>
+    <ppp>
+      <ptpid>0</ptpid>
+      <type>pppoe</type>
+      <if>pppoe0</if>
+      <ports>vmx0_vlan10</ports>
+      <username>pu559784@PROXIMUS</username>
+      <password>dzlRN0J0S2c=</password>
+      <provider/>
+    </ppp>
   </ppps>
   <wireless>
     <clone/>
