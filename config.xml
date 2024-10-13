@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/wireguard/client/setClient/a0e4d214-35a3-4d8c-aebf-132618705a66 made changes</description>
-    <time>1728851994.2269</time>
+    <time>1728854026.6141</time>
+    <description>/vpn_ipsec_phase1.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1954,6 +1954,29 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <dpd_maxfail>5</dpd_maxfail>
       <dpd_action/>
       <disabled>1</disabled>
+    </phase1>
+    <phase1>
+      <iketype>ikev2</iketype>
+      <interface>opt6</interface>
+      <protocol>inet</protocol>
+      <myid_type>address</myid_type>
+      <myid_data>109.130.60.117</myid_data>
+      <peerid_type>peeraddress</peerid_type>
+      <encryption-algorithm>
+        <name>aes256gcm16</name>
+      </encryption-algorithm>
+      <pre-shared-key>7OkmTr4xImHc+ql7QX9T5C8xUo9r6Irz2eHICLxlIx8=</pre-shared-key>
+      <authentication_method>pre_shared_key</authentication_method>
+      <nat_traversal>on</nat_traversal>
+      <dhgroup>14</dhgroup>
+      <hash-algorithm>sha256</hash-algorithm>
+      <private-key/>
+      <remote-gateway>ldk.ddns.net</remote-gateway>
+      <rightallowany>1</rightallowany>
+      <dpd_delay>10</dpd_delay>
+      <dpd_maxfail>5</dpd_maxfail>
+      <dpd_action/>
+      <ikeid>3</ikeid>
     </phase1>
     <phase2>
       <ikeid>1</ikeid>
