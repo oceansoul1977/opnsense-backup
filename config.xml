@@ -579,8 +579,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728847214.4604</time>
-    <description>/interfaces.php made changes</description>
+    <description>/api/wireguard/server/addServer/ made changes</description>
+    <time>1728848336.0211</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -591,7 +591,25 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <enabled>0</enabled>
       </general>
       <server version="1.0.0">
-        <servers/>
+        <servers>
+          <server uuid="dab6cdce-df3e-4bc6-b7f5-8be83cb69813">
+            <enabled>1</enabled>
+            <name>wireguard</name>
+            <instance>0</instance>
+            <pubkey>7OkmTr4xImHc+ql7QX9T5C8xUo9r6Irz2eHICLxlIx8=</pubkey>
+            <privkey>mAQeGzaJ9x5oItGeJZVxiaPivGO7Yc0hsZ+cBKVWYVI=</privkey>
+            <port>51820</port>
+            <mtu/>
+            <dns/>
+            <tunneladdress>10.0.0.1/24</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+            <endpoint/>
+            <peer_dns/>
+          </server>
+        </servers>
       </server>
     </wireguard>
     <IPsec version="1.0.1">
