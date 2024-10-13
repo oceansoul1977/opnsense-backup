@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728854240.7786</time>
-    <description>/vpn_ipsec_phase2.php made changes</description>
+    <time>1728854776.6883</time>
+    <description>/vpn_ipsec_phase1.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1956,12 +1956,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <disabled>1</disabled>
     </phase1>
     <phase1>
+      <ikeid>3</ikeid>
       <iketype>ikev2</iketype>
       <interface>opt6</interface>
       <protocol>inet</protocol>
       <myid_type>address</myid_type>
       <myid_data>109.130.60.117</myid_data>
-      <peerid_type>peeraddress</peerid_type>
+      <peerid_type>address</peerid_type>
+      <peerid_data>94.111.43.76</peerid_data>
       <encryption-algorithm>
         <name>aes256gcm16</name>
       </encryption-algorithm>
@@ -1976,7 +1978,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <dpd_delay>10</dpd_delay>
       <dpd_maxfail>5</dpd_maxfail>
       <dpd_action/>
-      <ikeid>3</ikeid>
     </phase1>
     <phase2>
       <ikeid>1</ikeid>
