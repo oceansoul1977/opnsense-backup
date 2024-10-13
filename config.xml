@@ -594,9 +594,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1728848843.3206</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@192.168.200.34</username>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1728849262.4392</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -704,6 +704,18 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <content>BE</content>
             <categories/>
             <description>Belgium Only</description>
+          </alias>
+          <alias uuid="aeb46b5d-4f81-4d75-bb6c-84e5b1dc43e3">
+            <enabled>1</enabled>
+            <name>newnas</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.200.55</content>
+            <categories/>
+            <description/>
           </alias>
         </aliases>
       </Alias>
