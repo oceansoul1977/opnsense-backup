@@ -347,7 +347,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <opt1>
       <if>vlan0.11</if>
       <descr>4G5G</descr>
-      <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>192.168.0.117</ipaddr>
@@ -581,8 +580,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728846908.9451</time>
-    <description>Interface Fiber(opt3) is now disabled.</description>
+    <time>1728846919.1714</time>
+    <description>Interface 4G5G(opt1) is now disabled.</description>
   </revision>
   <OPNsense>
     <wireguard>
