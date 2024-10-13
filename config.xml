@@ -566,6 +566,32 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="55cd52e2-7f6f-4bfe-a0a8-8e72136a6c8a">
+      <type>pass</type>
+      <interface>opt7</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>nas-icmp</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>newnas</address>
+      </destination>
+      <updated>
+        <username>root@192.168.200.34</username>
+        <time>1728851155.7475</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.200.34</username>
+        <time>1728851155.7475</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d121b51b-0168-4125-ad17-f61665e1d44c">
       <type>pass</type>
       <interface>opt7</interface>
@@ -703,7 +729,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728849524.8726</time>
+    <time>1728851155.8004</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
