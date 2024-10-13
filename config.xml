@@ -444,6 +444,15 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <spoofmac/>
       <blockbogons>1</blockbogons>
     </opt7>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Group)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd/>
   <snmpd>
@@ -585,9 +594,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.34</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1728848843.1835</time>
+    <username>(root)</username>
+    <time>1728848843.3206</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <wireguard>
