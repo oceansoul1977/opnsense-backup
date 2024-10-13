@@ -586,13 +586,24 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728848571.6119</time>
-    <description>/interfaces.php made changes</description>
+    <description>/api/wireguard/client/addClient/ made changes</description>
+    <time>1728848838.1308</time>
   </revision>
   <OPNsense>
     <wireguard>
       <client version="1.0.0">
-        <clients/>
+        <clients>
+          <client uuid="a0e4d214-35a3-4d8c-aebf-132618705a66">
+            <enabled>1</enabled>
+            <name>lukdk</name>
+            <pubkey>NXPxMg9Ro106jDmwiosyi6fFm0HuugkbYOZbi5jATiY=</pubkey>
+            <psk>GknlDf6TZlJ1u8z6JLEuvDqctaBvxTskcVad5aY4+gg=</psk>
+            <tunneladdress>10.0.0.2/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive>25</keepalive>
+          </client>
+        </clients>
       </client>
       <general version="0.0.1">
         <enabled>0</enabled>
