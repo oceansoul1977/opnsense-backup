@@ -365,7 +365,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <opt3>
       <if>vlan0.13</if>
       <descr>Fiber</descr>
-      <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>dhcp</ipaddr>
@@ -581,9 +580,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.4</username>
-    <time>1721828336.614</time>
-    <description>/vpn_ipsec_phase1.php made changes</description>
+    <username>root@192.168.200.34</username>
+    <time>1728846908.9451</time>
+    <description>Interface Fiber(opt3) is now disabled.</description>
   </revision>
   <OPNsense>
     <wireguard>
