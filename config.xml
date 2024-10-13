@@ -593,6 +593,33 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="fa2a2193-4bb7-44fb-a7b2-2c81b39bb644">
+      <type>pass</type>
+      <interface>opt7</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>nas-445</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>newnas</address>
+        <port>445</port>
+      </destination>
+      <updated>
+        <username>root@192.168.200.34</username>
+        <time>1728849524.8195</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.200.34</username>
+        <time>1728849524.8195</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="efe3c14c-c6a2-4126-b036-4ef0ca079891">
       <type>pass</type>
       <interface>opt7</interface>
@@ -676,7 +703,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728849501.2047</time>
+    <time>1728849524.8726</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
