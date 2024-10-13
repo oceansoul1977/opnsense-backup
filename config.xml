@@ -406,7 +406,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <opt5>
       <if>vlan0.40</if>
       <descr>OpnSenseTestEnvironment</descr>
-      <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>192.168.2.1</ipaddr>
@@ -580,8 +579,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728846919.1714</time>
-    <description>Interface 4G5G(opt1) is now disabled.</description>
+    <time>1728846934.7841</time>
+    <description>Interface OpnSenseTestEnvironment(opt5) is now disabled.</description>
   </revision>
   <OPNsense>
     <wireguard>
