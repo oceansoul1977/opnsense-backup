@@ -392,7 +392,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
-      <ipaddr>192.168.200.23</ipaddr>
+      <ipaddr>192.168.200.1</ipaddr>
       <subnet>26</subnet>
     </opt4>
     <enc0>
@@ -579,8 +579,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728846934.7841</time>
-    <description>Interface OpnSenseTestEnvironment(opt5) is now disabled.</description>
+    <time>1728847214.4604</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
