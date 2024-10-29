@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1730216613.8011</time>
+    <description>/api/wireguard/client/addClientBuilder made changes</description>
+    <time>1730217539.3751</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -745,6 +745,16 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <serveraddress/>
             <serverport/>
             <keepalive>25</keepalive>
+          </client>
+          <client uuid="20b70a34-0cd7-4ac6-a873-adda41e43768">
+            <enabled>1</enabled>
+            <name>koen-fairphone</name>
+            <pubkey>+FJhYSCD16bey4mSr4n7Sx45G4bz4P6UC1tO6eVyCAE=</pubkey>
+            <psk>ZfFFBrn8CNnwzhntWdSOu7xsS99WJJ3jSLCP0/Ij8RM=</psk>
+            <tunneladdress>10.0.0.2/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive>5</keepalive>
           </client>
         </clients>
       </client>
@@ -766,7 +776,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers/>
+            <peers>20b70a34-0cd7-4ac6-a873-adda41e43768</peers>
             <endpoint/>
             <peer_dns/>
           </server>
