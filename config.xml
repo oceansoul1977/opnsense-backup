@@ -268,7 +268,7 @@
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
     <firmware version="1.0.1">
-      <mirror>https://pkg.opnsense.org</mirror>
+      <mirror>https://mirrors.dotsrc.org/opnsense</mirror>
       <flavour/>
       <plugins>os-ddclient,os-git-backup</plugins>
       <type/>
@@ -730,7 +730,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.34</username>
     <description>/api/core/firmware/set made changes</description>
-    <time>1730214747.7169</time>
+    <time>1730215055.1095</time>
   </revision>
   <OPNsense>
     <wireguard>
