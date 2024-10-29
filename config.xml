@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/ids/settings/set made changes</description>
-    <time>1730216080.2215</time>
+    <description>/api/wireguard/server/setServer/dab6cdce-df3e-4bc6-b7f5-8be83cb69813 made changes</description>
+    <time>1730216489.1598</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -761,12 +761,12 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <privkey>mAQeGzaJ9x5oItGeJZVxiaPivGO7Yc0hsZ+cBKVWYVI=</privkey>
             <port>51820</port>
             <mtu/>
-            <dns/>
+            <dns>192.168.200.5</dns>
             <tunneladdress>10.0.0.1/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>a0e4d214-35a3-4d8c-aebf-132618705a66</peers>
+            <peers/>
             <endpoint/>
             <peer_dns/>
           </server>
