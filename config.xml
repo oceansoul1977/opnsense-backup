@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/core/firmware/set made changes</description>
-    <time>1730215066.6476</time>
+    <description>/api/ids/settings/set made changes</description>
+    <time>1730216080.2215</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -950,10 +950,10 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </files>
       <fileTags/>
       <general>
-        <enabled>1</enabled>
-        <ips>1</ips>
+        <enabled>0</enabled>
+        <ips>0</ips>
         <promisc>1</promisc>
-        <interfaces>opt1,wan</interfaces>
+        <interfaces>opt6</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
         <defaultPacketSize/>
         <UpdateCron>bde325bc-d457-4038-866f-c97096bcc36b</UpdateCron>
