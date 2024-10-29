@@ -268,7 +268,7 @@
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
     <firmware version="1.0.1">
-      <mirror/>
+      <mirror>https://pkg.opnsense.org</mirror>
       <flavour/>
       <plugins>os-ddclient,os-git-backup</plugins>
       <type/>
@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1728854776.6883</time>
-    <description>/vpn_ipsec_phase1.php made changes</description>
+    <description>/api/core/firmware/set made changes</description>
+    <time>1730214747.7169</time>
   </revision>
   <OPNsense>
     <wireguard>
