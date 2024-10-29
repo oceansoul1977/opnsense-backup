@@ -729,8 +729,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/wireguard/client/addClientBuilder made changes</description>
-    <time>1730217539.3751</time>
+    <description>/api/wireguard/server/setServer/dab6cdce-df3e-4bc6-b7f5-8be83cb69813 made changes</description>
+    <time>1730217539.4204</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -777,7 +777,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <gateway/>
             <carp_depend_on/>
             <peers>20b70a34-0cd7-4ac6-a873-adda41e43768</peers>
-            <endpoint/>
+            <endpoint>109.130.60.117:51820</endpoint>
             <peer_dns/>
           </server>
         </servers>
