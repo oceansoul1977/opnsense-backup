@@ -769,8 +769,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1730388447.2532</time>
-    <description>/interfaces_assign.php made changes</description>
+    <description>/api/interfaces/vlan_settings/delItem/37080326-3bcb-4772-922a-2bc59bc4e6c7 made changes</description>
+    <time>1730388460.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1806,14 +1806,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <proto/>
       <descr>4G/5G Internet</descr>
       <vlanif>vlan0.11</vlanif>
-    </vlan>
-    <vlan uuid="37080326-3bcb-4772-922a-2bc59bc4e6c7">
-      <if>vmx0</if>
-      <tag>12</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr>Internal Routing Network</descr>
-      <vlanif>vlan0.12</vlanif>
     </vlan>
     <vlan uuid="3eb79050-8145-4c3c-aaaf-b76d8574bd7d">
       <if>vmx0</if>
