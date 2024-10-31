@@ -779,8 +779,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/wireguard/client/delClient/a0e4d214-35a3-4d8c-aebf-132618705a66 made changes</description>
-    <time>1730386654.6189</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1730386658.1663</time>
   </revision>
   <OPNsense>
     <wireguard>
