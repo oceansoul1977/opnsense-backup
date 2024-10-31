@@ -778,8 +778,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1730388305.1383</time>
-    <description>/interfaces_assign.php made changes</description>
+    <description>/api/interfaces/vlan_settings/setItem/ccd6f27e-89ac-48db-afd1-986f0a559112 made changes</description>
+    <time>1730388345.0893</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1805,7 +1805,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <tag>10</tag>
       <pcp>0</pcp>
       <proto/>
-      <descr>Proximus DSL</descr>
+      <descr>Proximus Fiber</descr>
       <vlanif>vmx0_vlan10</vlanif>
     </vlan>
     <vlan uuid="eb7e8215-5070-424c-aac5-0527b70f1929">
