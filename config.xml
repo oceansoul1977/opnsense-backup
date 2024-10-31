@@ -728,9 +728,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.34</username>
-    <description>/api/wireguard/server/setServer/dab6cdce-df3e-4bc6-b7f5-8be83cb69813 made changes</description>
-    <time>1730217539.4204</time>
+    <username>root@192.168.200.4</username>
+    <description>/api/wireguard/client/setClient/20b70a34-0cd7-4ac6-a873-adda41e43768 made changes</description>
+    <time>1730385958.1351</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -752,7 +752,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <pubkey>+FJhYSCD16bey4mSr4n7Sx45G4bz4P6UC1tO6eVyCAE=</pubkey>
             <psk>ZfFFBrn8CNnwzhntWdSOu7xsS99WJJ3jSLCP0/Ij8RM=</psk>
             <tunneladdress>10.0.0.2/32</tunneladdress>
-            <serveraddress/>
+            <serveraddress>109.139.6.73</serveraddress>
             <serverport/>
             <keepalive>5</keepalive>
           </client>
