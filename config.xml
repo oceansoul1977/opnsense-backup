@@ -779,23 +779,13 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1730386452.0225</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/wireguard/client/delClient/a0e4d214-35a3-4d8c-aebf-132618705a66 made changes</description>
+    <time>1730386654.6189</time>
   </revision>
   <OPNsense>
     <wireguard>
       <client version="1.0.0">
         <clients>
-          <client uuid="a0e4d214-35a3-4d8c-aebf-132618705a66">
-            <enabled>1</enabled>
-            <name>lukdk</name>
-            <pubkey>NXPxMg9Ro106jDmwiosyi6fFm0HuugkbYOZbi5jATiY=</pubkey>
-            <psk>GknlDf6TZlJ1u8z6JLEuvDqctaBvxTskcVad5aY4+gg=</psk>
-            <tunneladdress>10.0.0.2/32</tunneladdress>
-            <serveraddress/>
-            <serverport/>
-            <keepalive>25</keepalive>
-          </client>
           <client uuid="20b70a34-0cd7-4ac6-a873-adda41e43768">
             <enabled>1</enabled>
             <name>koen-fairphone</name>
