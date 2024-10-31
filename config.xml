@@ -355,7 +355,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <opt2>
       <if>vlan0.12</if>
       <descr>InternalRouting</descr>
-      <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>192.168.0.140</ipaddr>
@@ -778,8 +777,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/interfaces/vlan_settings/delItem/eb7e8215-5070-424c-aac5-0527b70f1929 made changes</description>
-    <time>1730388349.7952</time>
+    <time>1730388424.6518</time>
+    <description>Interface InternalRouting(opt2) is now disabled.</description>
   </revision>
   <OPNsense>
     <wireguard>
