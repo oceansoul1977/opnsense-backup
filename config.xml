@@ -352,14 +352,6 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <ipaddr>192.168.0.117</ipaddr>
       <subnet>28</subnet>
     </opt1>
-    <opt2>
-      <if>vlan0.12</if>
-      <descr>InternalRouting</descr>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>192.168.0.140</ipaddr>
-      <subnet>28</subnet>
-    </opt2>
     <opt4>
       <if>vmx0</if>
       <descr>NewLAN</descr>
@@ -777,8 +769,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1730388424.6518</time>
-    <description>Interface InternalRouting(opt2) is now disabled.</description>
+    <time>1730388444.5054</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
