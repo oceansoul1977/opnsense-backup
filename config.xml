@@ -539,6 +539,32 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="4cb6386c-225a-465e-8e30-a10f8ab1414b">
+      <type>pass</type>
+      <interface>opt6</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>51820</port>
+      </destination>
+      <updated>
+        <username>root@192.168.200.4</username>
+        <time>1730386101.1969</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.200.4</username>
+        <time>1730386101.1969</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="4b30e82c-ec32-452c-b6fe-d54338d5c848">
       <type>pass</type>
       <interface>opt7</interface>
@@ -729,8 +755,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <description>/api/wireguard/client/setClient/20b70a34-0cd7-4ac6-a873-adda41e43768 made changes</description>
-    <time>1730385958.1351</time>
+    <time>1730386101.2494</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
