@@ -413,7 +413,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </opt5>
     <opt6>
       <if>vmx0_vlan10</if>
-      <descr>ProximusDSL</descr>
+      <descr>ProximusFiber</descr>
       <enable>1</enable>
       <spoofmac/>
       <blockbogons>1</blockbogons>
@@ -803,8 +803,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.4</username>
-    <time>1730387305.4571</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1730388261.7567</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
