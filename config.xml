@@ -847,8 +847,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495524.2252</time>
-    <description>group "openvpnusers" created</description>
+    <description>/api/openvpn/instances/add_static_key/ made changes</description>
+    <time>1730495669.1943</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -967,7 +967,33 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <description>OpenVPN Server</description>
         </Instance>
       </Instances>
-      <StaticKeys/>
+      <StaticKeys>
+        <StaticKey uuid="e5563dee-fd1a-42ec-af8c-78c86753d8aa">
+          <mode>crypt</mode>
+          <key>#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+ec8a8dd128d3e4aef725022c3e6f09f5
+633841153fabc9114707e27b99958cfa
+575100d8cdd0bd8e068864f44375ed00
+b310c1986b360cecdcbab5f81d122001
+e609fbf9c07513ce9bc2e1087023b497
+a81e993c939be0dd7701f47923467701
+bc36a82a41c48c8a6095abf3c0b69b96
+2bb7a91f04204d278938cc15a7401b2d
+30fcadde959d20a5edd1716de24eb576
+9488070056cc2d5bd0e14a08ebfe5c65
+d95901d607093d01e1d54c0229c8e8e3
+b5381edc306d53a4570b6d071a9134b4
+3cff13b853c37df941811e56a2ffa31c
+97f322e330a76e2d264f52c8ab68965d
+886b98b90482bd05f535721f8da04aea
+ef20b8ce41dc662f24f494415583e6b9
+-----END OpenVPN Static key V1-----</key>
+          <description>openvpnstatickey</description>
+        </StaticKey>
+      </StaticKeys>
     </OpenVPN>
     <captiveportal version="1.0.1">
       <zones/>
