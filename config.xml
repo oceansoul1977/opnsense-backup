@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/openvpn/instances/set/25a8f163-13db-41b1-b71f-9986570be8d4 made changes</description>
-    <time>1730501641.2662</time>
+    <description>/api/openvpn/export/download/25a8f163-13db-41b1-b71f-9986570be8d4/6725560379ac2/ made changes</description>
+    <time>1730501717.3701</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -987,10 +987,10 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <server uuid="1af2a0c7-de2f-4058-ad4c-5672866f22a3">
           <vpnid>25a8f163-13db-41b1-b71f-9986570be8d4</vpnid>
           <hostname>zagershyden.duckdns.org</hostname>
-          <template>ArchiveOpenVPN</template>
+          <template>PlainOpenVPN</template>
           <local_port>1194</local_port>
           <random_local_port>1</random_local_port>
-          <validate_server_cn>1</validate_server_cn>
+          <validate_server_cn>0</validate_server_cn>
           <cryptoapi>0</cryptoapi>
           <auth_nocache>0</auth_nocache>
           <plain_config/>
