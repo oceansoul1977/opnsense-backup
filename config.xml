@@ -809,14 +809,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>opt7</network>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.200.4</username>
-        <time>1730386451.9683</time>
+        <username>root@192.168.200.34</username>
+        <time>1730502973.8219</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -881,7 +881,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730502859.7298</time>
+    <time>1730502973.8747</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
