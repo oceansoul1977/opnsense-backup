@@ -847,8 +847,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495983.0449</time>
-    <description>user "kzagers" changed</description>
+    <description>/api/openvpn/export/download/25a8f163-13db-41b1-b71f-9986570be8d4/672545e8cc256/ made changes</description>
+    <time>1730496082.4576</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -908,7 +908,19 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <SPDs/>
     </Swanctl>
     <OpenVPNExport version="0.0.1">
-      <servers/>
+      <servers>
+        <server uuid="1af2a0c7-de2f-4058-ad4c-5672866f22a3">
+          <vpnid>25a8f163-13db-41b1-b71f-9986570be8d4</vpnid>
+          <hostname>zagershyden.duckdns.org</hostname>
+          <template>ArchiveOpenVPN</template>
+          <local_port>1194</local_port>
+          <random_local_port>1</random_local_port>
+          <validate_server_cn>1</validate_server_cn>
+          <cryptoapi>0</cryptoapi>
+          <auth_nocache>0</auth_nocache>
+          <plain_config/>
+        </server>
+      </servers>
     </OpenVPNExport>
     <OpenVPN version="1.0.0">
       <Overwrites/>
