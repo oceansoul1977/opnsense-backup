@@ -846,8 +846,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/trust/cert/del/21d2809b-75cc-4fb4-a449-d3072a138847 made changes</description>
-    <time>1730497832.5345</time>
+    <description>/api/openvpn/instances/set/25a8f163-13db-41b1-b71f-9986570be8d4 made changes</description>
+    <time>1730499338.9468</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -986,7 +986,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <crl/>
           <ca/>
           <cert_depth/>
-          <verify_client_cert>require</verify_client_cert>
+          <remote_cert_tls>0</remote_cert_tls>
+          <verify_client_cert>none</verify_client_cert>
           <use_ocsp>0</use_ocsp>
           <auth/>
           <data-ciphers/>
