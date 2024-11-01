@@ -501,14 +501,14 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <address>10.0.0.0/24</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.200.34</username>
-        <time>1730495321.6285</time>
+        <time>1730500601.3961</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -881,7 +881,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730500525.2776</time>
+    <time>1730500601.4489</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
