@@ -871,9 +871,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1730502660.0906</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@192.168.200.34</username>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1730502663.1441</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -892,7 +892,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         </clients>
       </client>
       <general version="0.0.1">
-        <enabled>0</enabled>
+        <enabled>1</enabled>
       </general>
       <server version="1.0.0">
         <servers>
