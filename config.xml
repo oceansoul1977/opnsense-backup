@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730501951.9543</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/wireguard/server/setServer/dab6cdce-df3e-4bc6-b7f5-8be83cb69813 made changes</description>
+    <time>1730502505.1012</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -912,9 +912,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <pubkey>7OkmTr4xImHc+ql7QX9T5C8xUo9r6Irz2eHICLxlIx8=</pubkey>
             <privkey>mAQeGzaJ9x5oItGeJZVxiaPivGO7Yc0hsZ+cBKVWYVI=</privkey>
             <port>51820</port>
-            <mtu/>
-            <dns>192.168.200.5</dns>
-            <tunneladdress>10.0.0.1/24</tunneladdress>
+            <mtu>1412</mtu>
+            <dns/>
+            <tunneladdress>10.10.10.1/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
