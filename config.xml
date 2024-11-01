@@ -782,8 +782,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730494862.7657</time>
-    <description>/system_certmanager.php made changes</description>
+    <description>/api/openvpn/instances/add/ made changes</description>
+    <time>1730495189.4642</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -847,7 +847,61 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     </OpenVPNExport>
     <OpenVPN version="1.0.0">
       <Overwrites/>
-      <Instances/>
+      <Instances>
+        <Instance uuid="25a8f163-13db-41b1-b71f-9986570be8d4">
+          <vpnid>1</vpnid>
+          <enabled>1</enabled>
+          <dev_type>tun</dev_type>
+          <verb>3</verb>
+          <proto>udp4</proto>
+          <port>1194</port>
+          <local/>
+          <topology>subnet</topology>
+          <remote/>
+          <role>server</role>
+          <server>192.168.201.0/26</server>
+          <server_ipv6>fe80::/64</server_ipv6>
+          <bridge_gateway/>
+          <bridge_pool/>
+          <route/>
+          <push_route>192.168.200.0/26</push_route>
+          <cert>672541061d462</cert>
+          <crl/>
+          <ca/>
+          <cert_depth/>
+          <verify_client_cert>require</verify_client_cert>
+          <use_ocsp>0</use_ocsp>
+          <auth/>
+          <data-ciphers/>
+          <data-ciphers-fallback/>
+          <tls_key/>
+          <authmode>Local Database</authmode>
+          <local_group/>
+          <various_flags/>
+          <various_push_flags/>
+          <username_as_common_name>0</username_as_common_name>
+          <strictusercn>0</strictusercn>
+          <username/>
+          <password/>
+          <maxclients/>
+          <keepalive_interval/>
+          <keepalive_timeout/>
+          <reneg-sec/>
+          <auth-gen-token/>
+          <redirect_gateway/>
+          <route_metric/>
+          <register_dns>0</register_dns>
+          <dns_domain/>
+          <dns_domain_search/>
+          <dns_servers/>
+          <ntp_servers/>
+          <tun_mtu/>
+          <fragment/>
+          <mssfix>0</mssfix>
+          <carp_depend_on/>
+          <description>OpenVPN Server</description>
+        </Instance>
+      </Instances>
       <StaticKeys/>
     </OpenVPN>
     <captiveportal version="1.0.1">
