@@ -238,7 +238,6 @@
       <email>zagers.koen@gmail.com</email>
       <shell>/bin/sh</shell>
       <uid>2000</uid>
-      <cert>6725418eaa0a0</cert>
       <cert>6725455c58ff7</cert>
     </user>
     <nextuid>2001</nextuid>
@@ -848,8 +847,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495836.4302</time>
-    <description>/system_certmanager.php made changes</description>
+    <time>1730495943.0866</time>
+    <description>The certificate association "kzagers" was successfully removed.</description>
   </revision>
   <OPNsense>
     <wireguard>
