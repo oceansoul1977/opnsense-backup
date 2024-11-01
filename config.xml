@@ -287,7 +287,7 @@
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
     <firmware version="1.0.1">
-      <mirror>https://pkg.opnsense.org</mirror>
+      <mirror/>
       <flavour/>
       <plugins>os-ddclient,os-git-backup</plugins>
       <type/>
@@ -845,9 +845,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1730496914.1807</time>
+    <username>root@192.168.200.34</username>
+    <description>/api/core/firmware/set made changes</description>
+    <time>1730497155.0869</time>
   </revision>
   <OPNsense>
     <wireguard>
