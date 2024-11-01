@@ -847,8 +847,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/openvpn/instances/add_static_key/ made changes</description>
-    <time>1730495669.1943</time>
+    <description>/api/openvpn/instances/set/25a8f163-13db-41b1-b71f-9986570be8d4 made changes</description>
+    <time>1730495724.0426</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -941,7 +941,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <data-ciphers-fallback/>
           <tls_key/>
           <authmode>Local Database</authmode>
-          <local_group/>
+          <local_group>2000</local_group>
           <various_flags/>
           <various_push_flags/>
           <username_as_common_name>0</username_as_common_name>
@@ -955,10 +955,10 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <auth-gen-token/>
           <redirect_gateway/>
           <route_metric/>
-          <register_dns>0</register_dns>
-          <dns_domain/>
-          <dns_domain_search/>
-          <dns_servers/>
+          <register_dns>1</register_dns>
+          <dns_domain>zagershyden.be</dns_domain>
+          <dns_domain_search>zagershyden.be</dns_domain_search>
+          <dns_servers>192.168.200.5</dns_servers>
           <ntp_servers/>
           <tun_mtu/>
           <fragment/>
