@@ -213,6 +213,12 @@
       <member>0</member>
       <priv>page-all</priv>
     </group>
+    <group>
+      <name>openvpnusers</name>
+      <description>OpenVPN Users</description>
+      <member>2000</member>
+      <gid>2000</gid>
+    </group>
     <user>
       <name>root</name>
       <descr>System Administrator</descr>
@@ -235,7 +241,7 @@
       <cert>6725418eaa0a0</cert>
     </user>
     <nextuid>2001</nextuid>
-    <nextgid>2000</nextgid>
+    <nextgid>2001</nextgid>
     <timezone>Europe/Brussels</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -841,8 +847,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495321.6957</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1730495524.2252</time>
+    <description>group "openvpnusers" created</description>
   </revision>
   <OPNsense>
     <wireguard>
