@@ -446,6 +446,15 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <virtual>1</virtual>
       <networks/>
     </openvpn>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Group)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd/>
   <snmpd>
@@ -871,9 +880,9 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.200.34</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1730502663.1441</time>
+    <username>(root)</username>
+    <time>1730502663.2792</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <wireguard>
