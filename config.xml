@@ -622,7 +622,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>udp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <any>1</any>
       </source>
@@ -632,7 +632,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
       </destination>
       <updated>
         <username>root@192.168.200.34</username>
-        <time>1730495292.3971</time>
+        <time>1730501951.9017</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -881,7 +881,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730501940.0376</time>
+    <time>1730501951.9543</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
