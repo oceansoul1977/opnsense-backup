@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730500601.4489</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <description>/api/openvpn/export/download/2/6725560379ac2/ made changes</description>
+    <time>1730500697.0399</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -991,6 +991,17 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <local_port>1194</local_port>
           <random_local_port>1</random_local_port>
           <validate_server_cn>1</validate_server_cn>
+          <cryptoapi>0</cryptoapi>
+          <auth_nocache>0</auth_nocache>
+          <plain_config/>
+        </server>
+        <server uuid="77b932b6-9063-4f55-9c93-c21b63e8c9b3">
+          <vpnid>2</vpnid>
+          <hostname>192.168.1.6</hostname>
+          <template>PlainOpenVPN</template>
+          <local_port>1195</local_port>
+          <random_local_port>1</random_local_port>
+          <validate_server_cn>0</validate_server_cn>
           <cryptoapi>0</cryptoapi>
           <auth_nocache>0</auth_nocache>
           <plain_config/>
