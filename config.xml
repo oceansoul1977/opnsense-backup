@@ -589,12 +589,12 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <any>1</any>
       </source>
       <destination>
-        <any>1</any>
+        <network>(self)</network>
         <port>1194</port>
       </destination>
       <updated>
         <username>root@192.168.200.34</username>
-        <time>1730495271.2773</time>
+        <time>1730495292.3971</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -817,7 +817,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495271.3349</time>
+    <time>1730495292.4517</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
