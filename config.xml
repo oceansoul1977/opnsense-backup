@@ -221,7 +221,19 @@
       <password>$2y$11$pggEVYQjxvw4BWkTthj9TuFFcu.ejl0n1qpJ1u.IOLWckYLRr845.</password>
       <uid>0</uid>
     </user>
-    <nextuid>2000</nextuid>
+    <user>
+      <password>$2y$11$BfYkemlzlqcc9AiFTM6FKO7AzMKJzcsA8D4M3oCAXhVkcR2lC34GS</password>
+      <scope>user</scope>
+      <name>kzagers</name>
+      <descr>Koen Zagers</descr>
+      <expires/>
+      <authorizedkeys>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFEb2Y5a3ROZ0Z6U3pGdWY3aFZoUnNZT0JqN0dYUmRDRGFGTE5makMxekR1SUZXNHBLNXVFVFVxeUhhWHBpaHVpeHpLNzZBa1Q0TVR0UHpUK0VJM05NaTlvK0txa1BCMmFTdXNhSFh2ZlQrSUU5Z29NLzlnYjlKZTA4YTBaU1BsbzNSU2hYL3VTQkt0UTJxeVZQTFpoR3U1d0R4YVZ3SzQ1dkpTR2hZdFl3TER6eXNHa3JURHlWd0V4YTZiVE9mMU5CUE1ZaGsvV3FHZC9rb2oray9iRGRNbTA4MnAyanlxVElTNzBPcGdBYVpLc080WjE5RjNOM28vdGJNTmE5KzQzUGVZeHkrUGV3QmZCVGhxNDE3cER2SnplQ1VsVS9nekNOeVVEUjJmRnUyUG5rUnVweDIyaVJOTHpGY2tHcXVKYUNUTTc5MFdSd3c3MG9QQVFNWkpocy8gemFnZXJrbzFAbGt6YWdlcnMudmFzY28uY29t</authorizedkeys>
+      <otp_seed>QU5IQ7YBQFNGFXTGDTAUREBPEPCD3PTX</otp_seed>
+      <email>zagers.koen@gmail.com</email>
+      <shell>/bin/sh</shell>
+      <uid>2000</uid>
+    </user>
+    <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
     <timezone>Europe/Brussels</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
@@ -769,8 +781,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730494733.2493</time>
-    <description>/system_certmanager.php made changes</description>
+    <time>1730494822.1294</time>
+    <description>user "kzagers" created</description>
   </revision>
   <OPNsense>
     <wireguard>
