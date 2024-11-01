@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/wireguard/client/setClient/20b70a34-0cd7-4ac6-a873-adda41e43768 made changes</description>
-    <time>1730502607.6757</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1730502621.8888</time>
   </revision>
   <OPNsense>
     <wireguard>
