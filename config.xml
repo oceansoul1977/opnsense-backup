@@ -479,6 +479,30 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="a37e43e9-d094-4b3b-8af3-4e31fcaf95aa">
+      <type>pass</type>
+      <interface>openvpn</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.200.34</username>
+        <time>1730495321.6285</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.200.34</username>
+        <time>1730495321.6285</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="216ce092-e6c3-4c95-add7-c76c7b55b87e">
       <type>pass</type>
       <interface>opt4</interface>
@@ -817,7 +841,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <time>1730495292.4517</time>
+    <time>1730495321.6957</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
