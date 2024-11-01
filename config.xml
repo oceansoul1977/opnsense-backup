@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1730502517.7491</time>
+    <description>/api/wireguard/client/setClient/20b70a34-0cd7-4ac6-a873-adda41e43768 made changes</description>
+    <time>1730502607.6757</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -893,7 +893,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
             <name>koen-fairphone</name>
             <pubkey>+FJhYSCD16bey4mSr4n7Sx45G4bz4P6UC1tO6eVyCAE=</pubkey>
             <psk>ZfFFBrn8CNnwzhntWdSOu7xsS99WJJ3jSLCP0/Ij8RM=</psk>
-            <tunneladdress>10.0.0.2/32</tunneladdress>
+            <tunneladdress>10.10.10.2/32</tunneladdress>
             <serveraddress/>
             <serverport/>
             <keepalive>5</keepalive>
