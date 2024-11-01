@@ -881,8 +881,8 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   </widgets>
   <revision>
     <username>root@192.168.200.34</username>
-    <description>/api/openvpn/export/download/2/6725560379ac2/ made changes</description>
-    <time>1730500980.3731</time>
+    <time>1730501270.6271</time>
+    <description>/vpn_openvpn_server.php made changes</description>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2089,7 +2089,7 @@ ef20b8ce41dc662f24f494415583e6b9
       <tlsmode>crypt</tlsmode>
       <reneg-sec>0</reneg-sec>
       <vpnid>2</vpnid>
-      <authmode>TOTP VPN Access Server</authmode>
+      <authmode>Local Database</authmode>
       <interface>opt6</interface>
       <custom_options/>
       <tls>Iw0KIyAyMDQ4IGJpdCBPcGVuVlBOIHN0YXRpYyBrZXkNCiMNCi0tLS0tQkVHSU4gT3BlblZQTiBTdGF0aWMga2V5IFYxLS0tLS0NCmUwNjJkOWUzYWIyOGJkNzM0N2JiMDEzYjdlN2Y3OTA3DQo0M2FlN2RmZmYzNjFhN2EyYjViOTM0YmI4MWQwZTA3OA0KNzQxNzRlMTljOTYxMjBhZDcxNDY5YTFiMTQ4NDFmYzQNCjJkMjk1NDY2MjVjNDhiNGY3MTVjY2M2OGY2ZGE3OGFjDQo1YzU0NThjNDlkYmNhZGY5OTgyMWI2MDQxNmU0MzQ0Mg0KNWFiOTBmYzFhNGE0ZDRkNWRlNDIyYjEwY2E2Yzg5NjENCjg2NjcxM2E5YzE1M2U5NDM1ZGZlNjM1ODIxNTAzODYyDQpmYzRlNDdhYzJhOTYxYzU4ZDVlMjZjNGIxNGMwODFmOQ0KZThkYWY3OTYzYzBhNWQxYWE4NzI0MzllMDFlZGI3NmMNCjQxMDYxOTAzMjMxZTZmN2E5ZTU1ODZlZmRhYmU3NDYzDQpkYTk4ZWMyYzY5Mjk2NzQwZWZkYmVmMWU3OTkyYzUwMQ0KY2MyZDgxN2NiZjhhMzEzYWViM2E2MDFmOWZjNjY4NjENCjcxMzc1YWI5ZGViZjBiOTlkMGIyMWFhM2NjZWY4ZjE3DQplNGM5MDVlMjFkOGY2ZWI5NWZjZTI2ZmM3MDdkZGZiNg0KYjgwNTY0NThjYWFmYmRjZGMzMzc1NDY4YjI5ODQ5ZDkNCjhlODJmMjY2NzkxOWJkZTFmMGE5OWFhODQ4NzE5ZmQ0DQotLS0tLUVORCBPcGVuVlBOIFN0YXRpYyBrZXkgVjEtLS0tLQ0K</tls>
