@@ -903,7 +903,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
   <revision>
     <username>root@192.168.200.4</username>
     <description>/api/openvpn/instances/set/25a8f163-13db-41b1-b71f-9986570be8d4 made changes</description>
-    <time>1730876035.0795</time>
+    <time>1730876351.9611</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1039,7 +1039,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <verb>3</verb>
           <proto>udp4</proto>
           <port>1194</port>
-          <local>127.0.0.1</local>
+          <local/>
           <topology>subnet</topology>
           <remote/>
           <role>server</role>
@@ -1059,7 +1059,7 @@ OCzfYqc34P5sr89lAAAAAAEC&#xD;
           <auth/>
           <data-ciphers/>
           <data-ciphers-fallback/>
-          <tls_key>e5563dee-fd1a-42ec-af8c-78c86753d8aa</tls_key>
+          <tls_key/>
           <authmode>Local Database</authmode>
           <local_group>2000</local_group>
           <various_flags/>
